@@ -7,6 +7,11 @@
     <groupId>sa.sy</groupId>
     <artifactId>lxd</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <name>lxd</name>
+    <description>A Java Library interacting with the LXD REST API</description>
+    <url>http://github.com/xlmnxp/sa.sy.lxd</url>
     <build>
         <plugins>
             <plugin>
@@ -19,6 +24,25 @@
             </plugin>
         </plugins>
     </build>
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>http://www.opensource.org/licenses/mit-license.php</url>
+        </license>
+    </licenses>
+    <developers>
+        <developer>
+            <name>Salem Yaslem</name>
+            <email>s@sy.sa</email>
+            <organization>Salem Yaslem</organization>
+            <organizationUrl>https://sy.sa</organizationUrl>
+        </developer>
+    </developers>
+    <scm>
+        <connection>scm:git:git://github.com/xlmnxp/sa.sy.lxd.git</connection>
+        <developerConnection>scm:git:ssh://github.com:xlmnxp/sa.sy.lxd.git</developerConnection>
+        <url>http://github.com/xlmnxp/sa.sy.lxd/tree/master</url>
+    </scm>
     <dependencies>
         <dependency>
             <groupId>com.kohlschutter.junixsocket</groupId>
