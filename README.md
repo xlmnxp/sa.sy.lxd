@@ -14,7 +14,7 @@ then add `sa.sy.lxd` to maven dependencies
 <dependency>
     <groupId>sa.sy</groupId>
     <artifactId>lxd</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
 </dependency>
 ```
 
